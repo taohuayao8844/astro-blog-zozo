@@ -29,7 +29,7 @@ const excludeSitemapFiles = (await getMarkdownEntries()).filter(
 	(entry) => entry.file.data.hidden,
 );
 
-// https://astro.build/config
+// https://github.com/taohuayao8844/taohuayao8844.github.io
 export default defineConfig({
 	site: Site,
 	build: {

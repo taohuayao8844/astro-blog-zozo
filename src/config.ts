@@ -1,10 +1,10 @@
 import type { PostHideElements } from '~/content/config';
 
-export const Site = 'https://astro-blog-zozo.pages.dev';
+export const Site = 'https://github.com/taohuayao8844/taohuayao8844.github.io';
 export const SiteLanguage = 'zh';
-export const SiteTitle = '无尽光芒';
-export const SiteDescription = '踏歌长行，梦想永在';
-export const FooterDescription = '肆意闪耀';
+export const SiteTitle = 'ZPN09';
+export const SiteDescription = '叹隙中驹，石中火，梦中身';
+export const FooterDescription = '普通工科牛马';
 export const AdminName = 'Ladit';
 export const PageSize = 15;
 
@@ -37,7 +37,7 @@ export const Socials: Record<string, Record<string, string>> = {
 // doc: https://giscus.app
 // data-theme is auto changed between noborder_light / noborder_gray
 export const GiscusConfig: Record<string, string> = {
-	'data-repo': 'ladit/astro-blog-zozo',
+	'data-repo': "taohuayao8844.github.io/taohuayao8844.github.io",
 	'data-repo-id': 'R_kgDOLgobXQ',
 	'data-category': 'Announcements',
 	'data-category-id': 'DIC_kwDOLgobXc4Cd_N6',
@@ -45,9 +45,9 @@ export const GiscusConfig: Record<string, string> = {
 	'data-strict': '0',
 	'data-reactions-enabled': '1',
 	'data-emit-metadata': '0',
-	'data-input-position': 'top',
+	'data-input-position': 'bottom',
 	'data-lang': 'zh-CN',
-	'data-loading': 'lazy',
+	'data-loading': 'anonymous',
 	crossorigin: 'anonymous',
 	async: '',
 };
@@ -61,3 +61,4 @@ export type HideElements =
 	| 'footerDescription';
 // Always hide elements from site
 export const Hide: HideElements[] = [];
+
